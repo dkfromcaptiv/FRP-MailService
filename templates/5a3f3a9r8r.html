@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration response</title>
+
+</head>
+
+<body style="font-family: Arial, sans-serif;background-color: #f4f4f4;margin: 0;padding: 0;">
+    <div class="email-container"
+        style="width: 100%;max-width: 600px;margin: 0 auto;background-color: #ffffff;border-radius: 8px;overflow: hidden;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <div class="header" style="display: flex;background: #00833d; color: #ffffff;padding: 20px 17px 20px 0px;">
+            <img class="img2" src="https://captivtech.com/do_not_delete/GGTI-Logo%201.svg" alt="Global GreenTag International"
+                style="width: 150px;padding-left: 19px;">
+        </div>
+        <!-- Email Content -->
+        <div class="content" style="padding: 20px;background: #ebffec;">
+            <h2>Hello {{firstName}},</h2>
+            <p style="font-size: 16px;line-height: 1.5;color: #333333;margin-top: 0px;"><strong>Thank you for creating
+                    your password!</strong> ! </p>
+            <p style="font-size: 16px;line-height: 1.5;color: #333333;margin-top: 0px;">This email serves as a
+                confirmation of your new password setup. If you did not initiate this change or believe this email was
+                sent to you in error,
+                <a href="mailto:info@captivtech.com"
+                    style="color: #3836c4;background: #00000000;text-decoration: underline;display: inline-block;border-radius: 5px;">
+                    click here
+                </a>&nbspto contact our support team immediately.
+            </p>
+            <p style="font-size: 16px;line-height: 1.5;color: #333333;margin-top: 0px;">Use the bellow button to Login
+                to your Account</p>
+            <div class="reset-password" style="margin: 5px;margin-bottom: 19px;">
+                <a href="{{url}}"
+                    style="display: inline-block; padding: 10px 50px; background-color:  #00833d; color: #ffffff; text-decoration: none; border-radius: 5px;">
+                    Login
+                </a>
+            </div>
+            <p style="font-size: 16px;line-height: 1.5;color: #333333;margin-top: 0px;">For your security, we recommend
+                that you do not share your password with anyone and change it regularly.</p>
+                <p style="font-size: 16px;line-height: 1.5;color: #333333;margin-top: 100px;">Best Regards,<br>
+                    Global GreenTag International</p>
+        </div>
+
+        <div class="footer"
+            style="text-align: center;padding: 10px;font-size: 12px;color: #fff;background-color: 	#00833d;">
+            <p>© 2024 Global GreenTag . All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
